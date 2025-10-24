@@ -20,7 +20,6 @@ services:
   - type: web
     name: autimilezzz-frontend
     runtime: static
-    region: oregon
     plan: free
     branch: main
     rootDir: frontend

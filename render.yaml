@@ -4,7 +4,6 @@ services:
     name: autimilezzz-backend
     runtime: node
     region: oregon
-    plan: free
     branch: main
     rootDir: backend
     buildCommand: npm install
@@ -20,7 +19,6 @@ services:
   - type: web
     name: autimilezzz-frontend
     runtime: static
-    plan: free
     branch: main
     rootDir: frontend
     buildCommand: echo "No build needed"
